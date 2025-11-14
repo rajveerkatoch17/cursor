@@ -1,0 +1,21 @@
+id,name,category,price
+1,Wireless Mouse,Electronics,19.99
+2,USB-C Charger,Electronics,29.99
+3,Noise Cancelling Headphones,Electronics,129.99
+4,4K Monitor,Electronics,349.99
+5,Mechanical Keyboard,Electronics,89.99
+6,Smartphone Case,Electronics,15.99
+7,Coffee Maker,Home,49.99
+8,Air Fryer,Home,99.99
+9,Vacuum Cleaner,Home,149.99
+10,Blender,Home,39.99
+11,Men's T-Shirt,Clothing,12.99
+12,Women's Jeans,Clothing,39.99
+13,Running Shoes,Sports,69.99
+14,Yoga Mat,Sports,24.99
+15,Dumbbell Set,Sports,79.99
+16,Mystery Novel,Books,9.99
+17,Cookbook,Books,19.99
+18,Children's Book,Books,7.99
+19,Board Game,Toys,29.99
+20,Gaming Chair,Furniture,199.99
