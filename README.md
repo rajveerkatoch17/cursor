@@ -42,6 +42,53 @@ Each file contains ~20 sample rows of realistic ecommerce data.
 ## ✅ Step 2 — Ingest Data Into SQLite Database
 
 Run the following command in Cursor IDE or VS Code terminal:
-
-```bash
 python ingest.py
+
+The script will:
+
+Create ecommerce.db
+
+Create tables:
+
+customers
+
+products
+
+orders
+
+order_items
+
+payments
+
+Insert all CSV data automatically
+Check tables:
+sqlite3 ecommerce.db
+.tables
+✅ Step 3 — SQL JOIN Query (run_query.py)
+
+Run:
+
+python run_query.py
+
+
+This script runs a multi-table join and prints results.
+📤 Step 4 — Push Project to GitHub
+git init
+git add .
+git commit -m "A-SDLC Ecommerce Project"
+git branch -M main
+git remote add origin git clone https://github.com/rajveerkatoch17/cursor.git
+git push -u origin main
+Tools Used
+
+Cursor IDE (A-SDLC)
+
+Python 3
+
+SQLite
+
+Git & GitHub
+
+📊 Sample Output
+('John Doe', 101, 'Laptop', 1, 55000, 'Success', 55000)
+('Aarav Kumar', 102, 'Bluetooth Speaker', 2, 2500, 'Success', 5000)
